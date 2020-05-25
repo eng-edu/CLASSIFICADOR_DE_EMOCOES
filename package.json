@@ -1,5 +1,5 @@
 {
-  "name": "what-emotion",
+  "name": "npl-what-emotion-server",
   "version": "1.0.0",
   "description": "text mining, machine learning",
   "main": "index.js",
