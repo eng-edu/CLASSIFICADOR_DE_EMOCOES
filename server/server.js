@@ -1,4 +1,3 @@
-'use strict';
 
 //carrega modulos
 const app = require('../app');

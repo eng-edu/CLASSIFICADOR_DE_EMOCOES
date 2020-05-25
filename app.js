@@ -1,5 +1,3 @@
-http://minerandodados.com.br/index.php/2017/03/15/analise-de-sentimentos-twitter-como-fazer/
-
 const express = require('express');
 const app = express();
 const io = require('./server/serverSocket');
@@ -34,7 +32,6 @@ app.get('/analize/:frase', function (req, res) {
   })
 
 })
-
 
 
 module.exports = app;
