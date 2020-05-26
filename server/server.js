@@ -10,10 +10,7 @@ const port = normalizePort(process.env.port||'7000');
 app.set('port', port);
 
 //cria o server
-
 const server = http.createServer(app);
-const serverSocket = require('./serverSocket');
-serverSocket.attach(server);
 
 
 //coloca o server pra rodar 
