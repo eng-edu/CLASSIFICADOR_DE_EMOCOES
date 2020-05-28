@@ -4,7 +4,7 @@
   "description": "text mining, machine learning",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server/server.js"
+    "start": "node ./server/server.js"
   },
   "author": "Eduardo Lima Nacimento",
   "license": "ISC",
