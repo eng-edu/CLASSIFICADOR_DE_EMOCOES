@@ -6,7 +6,7 @@ const http = require('http');
 
 
 //define a porta
-const port = normalizePort(process.env.port||'7000');
+const port = normalizePort(process.env.PORT||'7000');
 app.set('port', port);
 
 //cria o server
